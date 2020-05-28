@@ -1,0 +1,78 @@
+{
+   "actions" : [
+      {
+         "name" : "/actions/main/in/digitalMoveLeft",
+         "requirement" : "optional",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/main/in/digitalMoveRight",
+         "requirement" : "optional",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/main/in/digitalMoveForward",
+         "requirement" : "optional",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/main/in/digitalMoveBackward",
+         "requirement" : "optional",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/main/in/digitalReset",
+         "requirement" : "optional",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/main/in/digitalDuck",
+         "requirement" : "optional",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/main/in/analogueMovement",
+         "requirement" : "optional",
+         "type" : "vector2"
+      },
+      {
+         "name" : "/actions/main/in/analogueRotation",
+         "requirement" : "optional",
+         "type" : "vector2"
+      },
+      {
+         "name" : "/actions/main/in/analogueDuck",
+         "requirement" : "optional",
+         "type" : "vector1"
+      }
+   ],
+   "default_bindings" : [
+      {
+         "binding_url" : "example_controller.json",
+         "controller_type" : "example_controller"
+      },
+      {
+         "binding_url" : "system_generated_helloworldoverlay_exe_binding_vive_controller.json",
+         "controller_type" : "vive_controller"
+      },
+      {
+         "binding_url" : "system_generated_helloworldoverlay_exe_binding_gamepad.json",
+         "controller_type" : "gamepad"
+      }
+   ],
+   "localization" : [
+      {
+         "/actions/main" : "My Game Actions",
+         "/actions/main/in/analogueDuck" : "Have the Player duck (Analogue)",
+         "/actions/main/in/analogueMovement" : "Move Player in the XZ plane (Analogue)",
+         "/actions/main/in/analogueRotation" : "Rotate Player around the Y axis (Analogue)",
+         "/actions/main/in/digitalDuck" : "Have the Player duck (Digital)",
+         "/actions/main/in/digitalReset" : "Reset all applied offsets",
+         "/actions/main/in/digitalMoveBackward" : "Move Player backward (Digital)",
+         "/actions/main/in/digitalMoveForward" : "Move Player forward (Digital)",
+         "/actions/main/in/digitalMoveLeft" : "Move Player to the left (Digital)",
+         "/actions/main/in/digitalMoveRight" : "Move Player to the right (Digital)",
+         "language_tag" : "en_us"
+      }
+   ]
+}

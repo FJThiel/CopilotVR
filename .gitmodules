@@ -1,0 +1,6 @@
+[submodule "CopilotVR/third_party/OpenVR-InputEmulator"]
+	path = CopilotVR/third_party/OpenVR-InputEmulator
+	url = https://github.com/matzman666/OpenVR-InputEmulator.git
+[submodule "CopilotVR/third_party/openvr"]
+	path = CopilotVR/third_party/openvr
+	url = https://github.com/ValveSoftware/openvr.git
