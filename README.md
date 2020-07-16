@@ -1,5 +1,8 @@
 # CopilotVR
 ## UCL Accessibility Prototype
+
+![Montage showcasing different applications of CopilotVR](/DocumentationPictures/Montage_downsized.jpg?raw=true "Montage showcasing different applications of CopilotVR")
+
 ---
 
 
