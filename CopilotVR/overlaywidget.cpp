@@ -66,7 +66,7 @@ OverlayWidget::OverlayWidget(QWidget *parent) :
 			break;
 		}
 		catch (vrinputemulator::vrinputemulator_connectionerror e) {
-			std::cout << "\nFailed to connect to open vr input emulator, ensure you've installed it. If you have, try running this fix: https://drive.google.com/open?id=1Gn3IOm6GbkINplbEenu0zTr3DkB1E8Hc \n" << std::flush;
+			std::cout << "\nFailed to connect to open vr input emulator, ensure you've installed it.\n" << std::flush;
 			std::this_thread::sleep_for(std::chrono::seconds(4));
 			continue;
 		}
